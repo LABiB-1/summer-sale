@@ -5,12 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Summer Sale</title>
+    <!--tailwind and daisyui link-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--Work Sans font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap" rel="stylesheet">
+
+    <!--Custom style-->
+    <style>
+        .work-sans {
+            font-family: "Work Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+    </style>
 </head>
 
-<body>
+<body class="bg-white">
+    <!--header section-->
+    <header class="bg-[#F9F6E2] px-60">
+        <div class="flex justify-between">
+            <div>
+                <h3 class="work-sans text-[#111] text-center font-medium text-3xl pt-64 pb-11">---SALE FEVER---</h3>
+                <h1 class="text-[#111] text-6xl font-bold work-sans pb-16">Purchase TK 200 or <br> above & get <span class="text-[#E527B2]">20% off</span></h1>
+                <div class="flex gap-4 items-center justify-center">
+                    <h3 class="text-[#111] font-medium text-2xl work-sans">Use Promo Code</h3>
+                    <button class="bg-[#E527B2] rounded-lg	text-[#FFF] text-2xl font-semibold work-sans text-center px-6 py-3">SELL200</button>
+                </div>
+            </div>
+            <div class="py-20">
+                <img src="images/Summer 1.png" alt="">
+            </div>
+        </div>
+    </header>
 
 </body>
 
-</html>
+</html> 
