@@ -17,6 +17,7 @@ function addToCart(card , itemType, itemPrice){
         totalPrice += priceNum;
         const priceEntry = document.getElementById('total-price');
         priceEntry.innerText = totalPrice;
+        console.log(typeof(totalPrice));
      });
    
 }

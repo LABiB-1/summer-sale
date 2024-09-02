@@ -15,7 +15,7 @@ document.getElementById('coupon-apply').addEventListener('click', function () {
     const coupon = document.getElementById('coupon-code');
     const discountEntry = document.getElementById('discount-entry');
     const couponString = coupon.value;
-    if (couponString === 'SELL200') {
+    if (couponString == 'SELL200') {
         const discount = totalPrice * 0.2;
         discountEntry.innerText = discount;
         const totalEntry = document.getElementById('total');
